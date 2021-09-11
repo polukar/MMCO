@@ -2087,6 +2087,7 @@ h5 {
 
   .directors__list-mobile .directors__item {
     width: 288px;
+    margin-right: 0px;
   }
 
   .directors__all {
@@ -2163,11 +2164,22 @@ h5 {
   .main__pic svg {
     transform: translateY(-32%);
   }
+
+  .expect .expect__item {
+    margin: 0;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 400px) {
   .main__pic svg {
     transform: translateY(-38%);
+  }
+}
+
+@media (max-width: 370px) {
+  .expect .expect__item:nth-child(2n-1) {
+    transform: none;
   }
 }
 /*# sourceMappingURL=maps/common.css.map */
