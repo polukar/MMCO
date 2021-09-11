@@ -1463,7 +1463,6 @@ h5 {
 .directors__list {
   padding-top: 100px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-right: -24px;
   max-height: 1080px;
