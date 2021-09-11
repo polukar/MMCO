@@ -1356,6 +1356,11 @@ h5 {
   color: #fff;
 }
 
+.main__buttons {
+  position: relative;
+  z-index: 300;
+}
+
 .partical {
   background-color: #fff;
 }
