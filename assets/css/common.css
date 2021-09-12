@@ -1237,6 +1237,31 @@ h5 {
   text-transform: uppercase;
 }
 
+.burger__close {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  display: none;
+  left: 0;
+  top: 70px;
+  width: 100%;
+  z-index: 200;
+  background-color: rgba(4, 41, 81, 0.75);
+  height: calc(100% - 90px);
+}
+
+.menu .nav__link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.menu__panel {
+  padding: 16px 24px 30px 24px;
+  background-color: #120826;
+}
+
 .section {
   border-radius: 48px 48px 0px 0px;
   margin-top: -60px;
